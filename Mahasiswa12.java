@@ -6,17 +6,10 @@ public class Mahasiswa12 {
 
     public Mahasiswa12() {}
     
-    public Mahasiswa12(String nm, String nim, double ipk, String kls) {
+    public Mahasiswa12(String nm, String nim, String kls, double ipk) {
         nama = nm;
         this.nim = nim;
         kelas = kls;
-        this.ipk = ipk;
-    }
-
-    Mahasiswa12(String nama, String nim, String kelas, double ipk) {
-        this.nama = nama;
-        this.nim = nim;
-        this.kelas = kelas;
         this.ipk = ipk;
     }
 
@@ -51,4 +44,3 @@ public class Mahasiswa12 {
         }
     }
 }
-
